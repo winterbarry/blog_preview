@@ -1,7 +1,18 @@
 body {
-    background-color: hsl(47, 88%, 63%)
+    background-color: hsl(47, 88%, 63%) /* #1. added yellow background color*/
 }
 
 .main-container {
-    background-color: white
+    background-color: white /* #2. added white background color to main container*/
+}
+
+.name {
+    display: flex; /* #3. added flex property to name class*/
+}
+
+.profile { /* #4. adjusted image to fit beside name*/
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
