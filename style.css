@@ -4,7 +4,8 @@ body {
 
 .main-container {
     background-color: white; /* #2. added white background color to main container*/
-    width: 200px;
+    width: 350px;
+    border-radius: 10px;
 }
 
 .name {
@@ -18,7 +19,12 @@ body {
     margin-right: 10px;
 }
 
-.illustration { 
+.image { /* #6. moved image to center */
+    display: flex;
+    justify-content: center;
+}
+
+.illustration { /* #5. changed image dimensions */
     width: 100px;
     height: 100px;
 }
