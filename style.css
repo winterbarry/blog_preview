@@ -3,7 +3,8 @@ body {
 }
 
 .main-container {
-    background-color: white /* #2. added white background color to main container*/
+    background-color: white; /* #2. added white background color to main container*/
+    width: 200px;
 }
 
 .name {
@@ -15,4 +16,9 @@ body {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+}
+
+.illustration { 
+    width: 100px;
+    height: 100px;
 }
