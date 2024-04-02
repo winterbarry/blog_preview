@@ -26,7 +26,16 @@ body {
 .image { /* #5. centered image */
     display: flex;
     justify-content: center; 
-   }
+}
+
+.image:hover { /* #9. added hover state to div*/
+    opacity: 0.5;
+}
+
+.image:focus-within .illustration { /* #10. added focus state to image */
+    outline: 5px solid blue; 
+}
+   
 
 .illustration { /* #6. set image properties*/
     width: 315px;
