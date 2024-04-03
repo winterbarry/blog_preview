@@ -1,16 +1,15 @@
 body {
     background-color: hsl(47, 88%, 63%); /* #1. added yellow bg color*/
-    height: 100%;
+    display: flex; /* #11. added methods to center main container*/
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .main-container {
     background-color: white; /* #2. added main container properties*/
     width: 350px;
     border-radius: 5%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 
